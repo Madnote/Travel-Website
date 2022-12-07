@@ -185,6 +185,22 @@ float: left;
     background: linear-gradient(45deg,#d64c7f,#ee4758 50%);
     color: #fff;
 }
+
+
+/* footer */
+.footer{
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.footer .social-media i{
+    margin: 2rem;
+}
+
+.footer p{
+    text-align: center;
+}
 /* Utitlity classes */
 
 .lg-heading{
