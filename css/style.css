@@ -261,3 +261,115 @@ float: left;
     background-color: #e63946;
     color: #fff;
 }
+
+.bg-dark{
+    background-color: #263238;
+}
+
+
+/* About Page styling */
+
+.about{
+    padding: 5rem 0;
+}
+.about h2::after{
+    content: "";
+    border: 3px solid #e63946;
+    display: block;
+    width: 100%;
+
+}
+
+.about-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about-wrapper .left{
+    width: 50%;
+    float: left;
+}
+
+.about-wrapper .right{
+    width: 50%;
+    float: right;
+}
+
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
+    content: "✓";
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+
+}
+
+.count{
+    margin-top: 3rem;
+}
+
+.count::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.count-items{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.count-items span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+
+.count-items p{
+    font-weight: 700;
+    color: #555;
+    margin-top: 0.5rem;
+}
+.cta-banner{
+    background: linear-gradient(45deg,#d64c7f,#ee4758 50%);
+    color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.cta-banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cta-banner-left{
+    width: 60%;
+    float: left;
+}
+.cta-banner-right{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.cta-content{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.cta-banner .btn-cta{
+    border: 1px solid #f4f4f4;
+    
+    color: #f4f4f4;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 0.3em 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
