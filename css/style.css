@@ -373,3 +373,99 @@ float: left;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
 }
+
+
+/* Contact page styling */
+.contact-form{
+    padding: 5rem 0;
+    background-color:#fff;
+}
+
+.company-adress{
+    width: 49%;
+    float: left;
+    background-color: #fff;
+
+}
+
+.form{
+    width: 49%;
+    float: right;
+    background-color: #fff;
+}
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-wrapper .company-adress i{
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+.form-wrapper .company-adress h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.adress-group{
+    margin-bottom: 3rem;
+}
+
+.company-adress img{
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* form styling */
+.form{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid #e63946;
+}
+.form label{
+    display: block;
+}
+.form label::after{
+    content: "* ";
+    color: #e63946;
+}
+
+.form input{
+    width: 100%;
+    padding: 0.5rem;
+}
+.form-group{
+    margin-bottom: 1.2rem;
+}
+
+.form textarea{
+    width: 100%;
+    height:25rem ;
+    padding: 1rem;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 0.5em 3em;
+    text-transform: uppercase;
+    background-color: #e63946;    
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.form-wrapper{
+    height: 760px;
+}
