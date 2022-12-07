@@ -157,6 +157,34 @@ float: left;
 }
 
 
+
+/* Features section */
+.features{
+    padding: 10rem 0;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+.box-wrapper{
+    box-shadow: 5px 5px 20px 0 #aaa;
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1,.box3{
+    background:#263238;
+    color: #fff;
+}
+.box2{
+    background: linear-gradient(45deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
 /* Utitlity classes */
 
 .lg-heading{
