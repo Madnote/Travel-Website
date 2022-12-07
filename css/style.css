@@ -110,6 +110,53 @@ h1,h2,h3{
     text-transform: uppercase;
 }
 
+/* Showcase Section */
+.show-case{
+    background: #ddd;
+    padding: 10rem 0;
+}
+
+.row{
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #aaa;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row .img-box{
+    height: 100%;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .text-box{
+    padding: 3em;
+
+}
+.row .text-box h2{
+    text-transform: uppercase;
+}
+
+.row1{
+    margin-bottom: 10rem;
+}
+
+.row1 .img-box,.row2 .text-box{
+width: 50%;
+float: left;
+}
+.row2 .img-box,.row1 .text-box{
+    width: 50% ;
+    float: right;
+}
+
+
 /* Utitlity classes */
 
 .lg-heading{
@@ -153,4 +200,20 @@ h1,h2,h3{
 .btn-primary{
    background-color: #fff;
    border-radius: 10em;
+}
+
+.btn-secondary{
+    background-color: #fff;
+    border:2px solid #e63946;
+    border-radius: 1.5em;
+}
+
+.btn-primary:hover{
+    background-color: #e63946;
+    color: #fff;
+}
+
+.btn-secondary:hover{
+    background-color: #e63946;
+    color: #fff;
 }
