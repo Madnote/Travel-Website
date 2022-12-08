@@ -469,3 +469,142 @@ float: left;
 .form-wrapper{
     height: 760px;
 }
+
+
+
+/* media queries */
+
+@media (max-width:500px) {
+    html{
+        font-size: 50%;
+    }
+    .navbar .nav-list, .navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+    .img-box,.text-box{
+        float: none !important; 
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .row{
+        height: auto !important;
+        text-align: center;
+    }
+
+
+    .box{
+        float: none;
+        width: 100%;
+        box-shadow:5px 5px 20px 0 #aaa ;
+    }
+
+    .box2,.box3{
+        margin-top: 2rem;
+    }
+
+    .box-wrapper{
+    box-shadow: none !important;
+}
+
+.fa-4x{
+    font-size: 3rem;
+}
+
+.cta-banner-left,.cta-banner-right{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.form-wrapper .company-adress{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+}
+.form-wrapper .form{
+    float: none;
+    width: 100%;
+}
+.form-wrapper{
+    height: auto ;
+}
+}
+
+@media (min-width:501px) and (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    .navbar .nav-list, .navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+    .img-box,.text-box{
+        float: none !important; 
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .row{
+        height: auto !important;
+        text-align: center;
+    }
+
+
+    .box{
+        float: none;
+        width: 100%;
+        box-shadow:5px 5px 20px 0 #aaa ;
+    }
+
+    .box2,.box3{
+        margin-top: 2rem;
+    }
+
+    .box-wrapper{
+    box-shadow: none !important;
+}
+
+.fa-4x{
+    font-size: 3rem;
+}
+
+.cta-banner-left,.cta-banner-right{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.form-wrapper .company-adress{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+}
+.form-wrapper .form{
+    float: none;
+    width: 100%;
+}
+.form-wrapper{
+    height: auto ;
+}
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    html{
+        font-size: 56.25%;
+    }
+}
